@@ -1,0 +1,170 @@
+bofy {
+    margin: 0
+}
+
+/* ************* header part *********** */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding: 0 10%;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0 64px 0;
+    justify-content: space-between;
+}
+
+.head h3 {
+    margin: 0;
+    /* font-family: 'Coda', cursive; */
+}
+
+.pages {
+    display: flex;
+    gap: 16px;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    min-width: 700px;
+}
+
+.main {
+    width: 400px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    /* font-family: 'Coda', cursive; */
+}
+
+.main p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.logo-img {
+    width: 500px; 
+    height: auto;
+    align-self: center;
+ }
+ 
+ button {
+    background-color: #3882f6;
+    padding: 4px 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+/* ********** Information section *****************/
+
+.information {
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+}
+
+.info-chart {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding-bottom: 30px;
+}
+
+.chart-item img {
+    border:4px solid #3882f6;
+    border-radius: 15px;
+}
+
+
+.sub-text {
+    font-size: 13px;
+    width: 160px;
+    font-family: 'Inconsolata', monospace;
+}
+
+img {
+    width: 150px;
+}
+
+/* ************** Quote part ************* */
+
+.mid-quote {
+    background-color: #e5e7eb;
+    padding: 64px 10%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p{
+    margin: 0;
+}
+
+.quote p:first-child {
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote p:last-child {
+    font-weight: bolder;
+    font-size: 24px;
+    align-self: flex-end;
+    padding-right: 50px;
+}
+
+/************* Call to action ***************/
+
+.blue-section {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    margin: 64px 10%;
+    padding: 32px 8%;
+    color: white;
+    justify-content: space-between;
+}
+
+.blue-text h3, .blue-text p{
+    margin: 0;
+}
+
+.blue-section button {
+    border: 1px solid white;
+}
+
+/* ******** Footer *********** */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
+}
